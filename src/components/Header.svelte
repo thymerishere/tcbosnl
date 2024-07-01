@@ -5,9 +5,7 @@
        isNavOpen.update((x) => !x)
     }
 
-    isNavOpen.subscribe((x) => {
-        console.log(x)
-    })
+    const narrowNavItemCss = "duration-100 hover:text-slate-900 rounded p-2 cursor-pointer"
 </script>
 
 <header class="flex flex-col sticky top-0 z-50 backdrop-blur-xl">
@@ -41,11 +39,11 @@
     {#if $isNavOpen}
         <div>
             <div class="absolute pr-5 text-right text-3xl grid grid-cols-1 w-full bg-slate-100">
-                <a on:click={updateNav} href="#bio" class="duration-100 hover:bg-slate-200 hover:text-slate-700 rounded p-1 cursor-pointer">Bio</a>
-                <a on:click={updateNav} href="#projects" class="duration-100 hover:bg-slate-200 hover:text-slate-700 rounded p-1 cursor-pointer">Projecten</a>
-                <a on:click={updateNav} href="#experience" class="duration-100 hover:bg-slate-200 hover:text-slate-700 rounded p-1 cursor-pointer">Ervaring</a>
-                <a on:click={updateNav} href="#skills" class="duration-100 hover:bg-slate-200 hover:text-slate-700 rounded p-1 cursor-pointer">Skills</a>
-                <a on:click={updateNav} href="#links" class="duration-100 hover:bg-slate-200 hover:text-slate-700 rounded p-1 cursor-pointer">Links</a>
+                <a on:click={updateNav} href="#bio" class={narrowNavItemCss}>Bio</a>
+                <a on:click={updateNav} href="#projects" class={narrowNavItemCss}>Projecten</a>
+                <a on:click={updateNav} href="#experience" class={narrowNavItemCss}>Ervaring</a>
+                <a on:click={updateNav} href="#skills" class={narrowNavItemCss}>Skills</a>
+                <a on:click={updateNav} href="#links" class={narrowNavItemCss}>Links</a>
             </div>
         </div>
     {/if}
