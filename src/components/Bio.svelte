@@ -2,11 +2,12 @@
     import BioItem from "./BioItem.svelte";
 </script>
 
-<p class="bg-gradient-to-b from-transparent to-slate-900 text-slate-100 text-5xl md:text-6xl lg:text-7xl text-center font-light mt-7 pb-3">
-    Wie ben ik?
-</p>
-
-
+<div>
+    <span id="bio" class="relative -top-[70px]" />
+    <p class="bg-gradient-to-b from-transparent to-slate-900 text-slate-100 text-5xl md:text-6xl lg:text-7xl text-center font-light mt-7 pb-3">
+        Wie ben ik?
+    </p>
+</div>
 
 <div class="bg-slate-900">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

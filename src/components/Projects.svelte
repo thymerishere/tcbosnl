@@ -1,6 +1,9 @@
-<p class="bg-slate-900 text-slate-100 text-5xl md:text-6xl lg:text-7xl text-center font-light pt-5 pb-3">
-    Projecten
-</p>
+<div>
+    <span id="projects" class="relative -top-[80px]" />
+    <p id="projects" class="bg-slate-900 text-slate-100 text-5xl md:text-6xl lg:text-7xl text-center font-light pt-5 pb-3">
+        Projecten
+    </p>
+</div>
 
 <div class="grid grid-cols-1 md:grid-cols-2 bg-slate-900">
     <div class="bg-low-voltage-charging-profiles bg-cover h-[350px] m-5 p-5 rounded-xl" />
@@ -37,7 +40,7 @@
         Gridshield is een electronisch vangnet voor middenspanningsruimtes.
         De transformatoren worden beschermd door bij overbelasting
         elektrisch laden in stappen af te schalen.
-        In dit project heb ik in een klein team Python software ontwikkeld
+        In dit project heb ik in een klein team Python-software ontwikkeld
         dat Gridshield implementeerd en heb ik geschikte hardware onderzocht.
         </div>
     </div>
