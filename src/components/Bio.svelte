@@ -48,7 +48,7 @@
             <span class="font-bold">Scrum</span>
             wat het team stuurt naar het bouwen van klantgerichte producten.
         </BioItem>
-        <BioItem>
+        <!-- <BioItem>
             <p class="text-xl font-light text-center">Analyst</p>
             Ik ben altijd gedreven door een wil om te weten hoe dingen werken.
             Ik graaf altijd graag net wat dieper om mijn kennis te verbreden.
@@ -57,7 +57,7 @@
             <p class="text-xl font-light text-center">Perfectionist</p>
             Er kan in mijn ogen altijd iets verbeterd worden.
             Maar, de kunst is om te bepalen wanneer iets beter moet.
-        </BioItem>
+        </BioItem> -->
         <BioItem>
             <p class="text-xl font-light text-center">Muziekliefhebber</p>
             In mijn vrije tijd besteed ik mijn tijd graag aan muziek luisteren en spelen.

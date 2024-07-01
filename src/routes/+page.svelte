@@ -3,6 +3,7 @@
     import Hero from "../components/Hero.svelte";
     import Bio from "../components/Bio.svelte";
     import Projects from "../components/Projects.svelte";
+    import Experience from "../components/Experience.svelte";
     import Skills from "../components/skills/Skills.svelte";
     import Footer from "../components/Footer.svelte";
     import Links from "../components/Links.svelte";
@@ -14,6 +15,7 @@
     <Hero />
     <Bio />
     <Projects />
+    <Experience />
     <Skills />
     <Links />
     <Footer />
