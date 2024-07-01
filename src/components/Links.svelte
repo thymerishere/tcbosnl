@@ -14,4 +14,9 @@
         <i class="fa-brands fa-instagram"></i>
         <p>Instagram <span class="text-slate-200">(@anotherforestband)</span></p>
     </a>
+    <a target="_blank" href="https://elaad.nl/blog-een-kijkje-achter-de-schermen-bij-de-ontwikkeling-van-de-laadprofielengenerator/" class="text-center text-white text-xl font-light hover:underline">
+        <i class="fa-solid fa-pen"></i>
+        <p>Mijn blog over de LS-profielengenerator <span class="text-slate-200">(ElaadNL)</span></p>
+    </a>
+
 </div>
