@@ -17,7 +17,6 @@
             <i class="fa-solid fa-t md:hidden bg-slate-100 p-2 rounded"></i>
         </a>
 
-
         <button on:click={updateNav} class="sm:hidden cursor-pointer text-white text-2xl">
             {#if $isNavOpen}
                 <i class="fa-sharp fa-solid fa-xmark"></i>

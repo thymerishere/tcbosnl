@@ -31,6 +31,7 @@ import SkillColumn from "./SkillColumn.svelte";
         <SkillItem title="SQL" experience="2 jaar" percent="to-70%" />
         <SkillItem title="R" experience="1 jaar" percent="to-60%" />
         <SkillItem title="Javascript" experience="1 jaar" percent="to-60%" />
+        <SkillItem title="HTML, CSS" experience="1 jaar" percent="to-60%" />
         <SkillItem title="FastAPI" experience="6 maanden" percent="to-30%" />
         <SkillItem title="Java" experience="Basis" percent="to-10%" />
     </SkillColumn>
