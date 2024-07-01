@@ -7,7 +7,7 @@
 
 <div class="grid grid-cols-1 md:grid-cols-2 bg-slate-900">
     <div class="bg-low-voltage-charging-profiles bg-cover h-[350px] m-5 p-5 rounded-xl" />
-    <div class="h-[400px] md:h-[350px] m-5 p-5 rounded-xl bg-gradient-to-r from-cyan-700 to-indigo-700 hover:from-cyan-600 hover:to-indigo-600">
+    <div class="md:h-[350px] m-5 p-5 rounded-xl bg-gradient-to-r from-cyan-700 to-indigo-700 hover:from-cyan-600 hover:to-indigo-600">
         <p class="text-3xl text-white text-center">Vermogensprofielen voor EV's en Laadpalen</p>
         <p class="text-xl text-white text-center font-light">
             ElaadNL
@@ -29,14 +29,14 @@
 
 <div class="grid grid-cols-1 md:grid-cols-2 bg-slate-900">
     <div class="bg-gridshield bg-cover bg-center h-[350px] m-5 p-5 rounded-xl" />
-    <div class="h-[350px] m-5 p-5 rounded-xl bg-gradient-to-r from-fuchsia-700 to-indigo-700 hover:from-fuchsia-600 hover:to-indigo-600">
+    <div class="m-5 p-5 rounded-xl bg-gradient-to-r from-fuchsia-700 to-indigo-700 hover:from-fuchsia-600 hover:to-indigo-600">
         <p class="text-3xl text-white text-center">Gridshield</p>
         <p class="text-xl text-white text-center font-light">
             ElaadNL
             <i class="fa-solid fa-minus"></i>
             sinds 2023
         </p>
-        <div class="text-white text-xl">
+        <div class="text-white text-lg">
         Gridshield is een electronisch vangnet voor middenspanningsruimtes.
         De transformatoren worden beschermd door bij overbelasting
         elektrisch laden in stappen af te schalen.
@@ -48,7 +48,7 @@
 
 <div class="grid grid-cols-1 md:grid-cols-2 bg-slate-900">
     <div class="bg-master-project bg-cover bg-center h-[350px] m-5 p-5 rounded-xl" />
-    <div class="h-[450px] md:h-[350px] m-5 p-5 rounded-xl bg-gradient-to-r from-slate-500 to-indigo-700 hover:from-slate-400 hover:to-indigo-600">
+    <div class="md:h-[350px] m-5 p-5 rounded-xl bg-gradient-to-r from-slate-500 to-indigo-700 hover:from-slate-400 hover:to-indigo-600">
         <p class="text-3xl text-white text-center">Voorspelling van het Koolzuurgehalte van Frisdrank</p>
         <p class="text-xl text-white text-center font-light">
             Batenburg Bellt
