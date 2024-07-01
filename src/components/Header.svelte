@@ -1,4 +1,4 @@
-<header class="flex flex-col sticky top-0 z-50 bg-black">
+<header class="flex flex-col sticky top-0 z-50 backdrop-blur-xl">
     <div class="max-w-[1400px] mx-auto w-full flex items-center justify-between p-4 py-6">
         <a class="hidden md:flex bg-slate-100 p-1 rounded" href="/">
             Thomas Christiaan Bos
