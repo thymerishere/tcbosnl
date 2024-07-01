@@ -1,6 +1,6 @@
 <div>
     <span id="projects" class="relative -top-[80px]" />
-    <p id="projects" class="bg-slate-900 text-slate-100 text-5xl md:text-6xl lg:text-7xl text-center font-light pt-5 pb-3">
+    <p id="projects" class="bg-slate-900 text-slate-100 text-5xl md:text-6xl lg:text-7xl text-center font-light pt-10 pb-3">
         Projecten
     </p>
 </div>

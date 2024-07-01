@@ -1,6 +1,6 @@
 <div>
     <span id="links" class="relative -top-[80px]" />
-    <p class="bg-slate-900 text-slate-100 text-5xl md:text-6xl lg:text-7xl text-center font-light p-5">
+    <p class="bg-slate-900 text-slate-100 text-5xl md:text-6xl lg:text-7xl text-center font-light pb-5 pt-10">
         Links
     </p>
 </div>

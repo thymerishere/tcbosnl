@@ -4,7 +4,7 @@
 
 <div>
     <span id="bio" class="relative -top-[70px]" />
-    <p class="bg-gradient-to-b from-transparent to-slate-900 text-slate-100 text-5xl md:text-6xl lg:text-7xl text-center font-light mt-7 pb-3">
+    <p class="bg-gradient-to-b from-transparent to-slate-900 text-slate-100 text-5xl md:text-6xl lg:text-7xl text-center font-light mt-10 pb-3">
         Wie ben ik?
     </p>
 </div>

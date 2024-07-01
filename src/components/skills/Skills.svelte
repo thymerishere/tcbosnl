@@ -6,7 +6,7 @@ import SkillColumn from "./SkillColumn.svelte";
 
 <div>
     <span id="skills" class="relative -top-[80px]" />
-    <p class="bg-slate-900 text-slate-100 text-5xl md:text-6xl lg:text-7xl text-center font-light pt-5 pb-3">
+    <p class="bg-slate-900 text-slate-100 text-5xl md:text-6xl lg:text-7xl text-center font-light pt-10">
         Skills
     </p>
 </div>
