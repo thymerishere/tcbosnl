@@ -14,11 +14,11 @@ import SkillColumn from "./SkillColumn.svelte";
 <div class="bg-slate-900 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
     <SkillColumn title="Opleidingen">
         <EducationItem title="Bachelor Computer Science" time="TU Delft, 2016 - 2019">
-            In mijn bachelor heb ik de wetenschappelijke basis van computers, programmeertalen,
+            Tijdens mijn bachelor heb ik de wetenschappelijke basis van computers, programmeertalen,
             algoritmiek, data analyse, en AI geleerd.
         </EducationItem>
         <EducationItem title="Master Computer Science" time="TU Delft, 2019 - 2022">
-            In mijn master heb ik een specialisatie in AI Technology
+            Tijdens mijn master heb ik een specialisatie in AI Technology
             gedaan en mij verder verdiept in AI, algoritmes, en ethiek.
         </EducationItem>
         <EducationItem title="Professional Scrum Master 1" time="2024">
@@ -28,7 +28,7 @@ import SkillColumn from "./SkillColumn.svelte";
 
     <SkillColumn title="Programmeren">
         <SkillItem title="Python" experience="2 jaar" percent="to-90%" />
-        <SkillItem title="SQL" experience="2 jaar" percent="to-90%" />
+        <SkillItem title="SQL" experience="2 jaar" percent="to-70%" />
         <SkillItem title="R" experience="1 jaar" percent="to-60%" />
         <SkillItem title="Javascript" experience="1 jaar" percent="to-60%" />
         <SkillItem title="FastAPI" experience="6 maanden" percent="to-30%" />

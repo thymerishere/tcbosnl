@@ -3,6 +3,6 @@
         ...
     </div>
     <div class="text-slate-400 text-sm text-center font-light p-5 italic">
-        Deze website is gemaakt door: <span class="not-italic">mijzelf</span>
+        Powered by: <span class="not-italic">me</span>
     </div>
 </div>

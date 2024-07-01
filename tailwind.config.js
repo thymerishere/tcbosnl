@@ -2,6 +2,10 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
+    fontFamily: {
+      'sans': ['Manrope Variable', 'sans-serif'],
+      'serif': ['Playfair Display Variable', 'serif'],
+    },
     extend: {
       backgroundImage: {
         'hero': "url('hero.jpg')",

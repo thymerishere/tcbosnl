@@ -7,6 +7,8 @@
     import Footer from "../components/Footer.svelte";
     import Links from "../components/Links.svelte";
 </script>
+
+
 <main class="flex flex-col bg-black">
     <Header />
     <Hero />
