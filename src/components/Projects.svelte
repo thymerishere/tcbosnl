@@ -37,7 +37,7 @@
             sinds 2023
         </p>
         <div class="text-white text-lg">
-        Gridshield is een electronisch vangnet voor middenspanningsruimtes.
+        Gridshield is een elektronisch vangnet voor middenspanningsruimtes.
         De transformatoren worden beschermd door bij overbelasting
         elektrisch laden in stappen af te schalen.
         In dit project heb ik in een klein team Python-software ontwikkeld
