@@ -15,6 +15,8 @@
 <style>
     .skill-column {
         flex: 1;
+        max-width: 600px;
+        min-width: 300px;
     }
 
     .skill-items {

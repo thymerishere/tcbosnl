@@ -24,7 +24,7 @@
         >
             <p>
                 Tijdens mijn master heb ik een specialisatie in AI Technology
-                gedaan en mij verder verdiept in AI, algoritmes, en ethiek.
+                gedaan en mij verder verdiept in AI, algoritmiek, en ethiek.
             </p>
         </EducationItem>
         <EducationItem title="Professional Scrum Master 1" time="2024">
