@@ -6,53 +6,69 @@
 
 <h1 id="skills">Skills</h1>
 
-<div>
+<div class="skill-columns">
     <SkillColumn title="Opleidingen">
         <EducationItem
             title="Bachelor Computer Science"
             time="TU Delft, 2016 - 2019"
         >
-            Tijdens mijn bachelor heb ik de wetenschappelijke basis van
-            computers, programmeertalen, algoritmiek, data analyse, en AI
-            geleerd.
+            <p>
+                Tijdens mijn bachelor heb ik de wetenschappelijke basis van
+                computers, programmeertalen, algoritmiek, data analyse, en AI
+                geleerd.
+            </p>
         </EducationItem>
         <EducationItem
             title="Master Computer Science"
             time="TU Delft, 2019 - 2022"
         >
-            Tijdens mijn master heb ik een specialisatie in AI Technology gedaan
-            en mij verder verdiept in AI, algoritmes, en ethiek.
+            <p>
+                Tijdens mijn master heb ik een specialisatie in AI Technology
+                gedaan en mij verder verdiept in AI, algoritmes, en ethiek.
+            </p>
         </EducationItem>
         <EducationItem title="Professional Scrum Master 1" time="2024">
-            Om mijn kennis in Scrum te verbreden heb ik het PSM-1 certificaat
-            behaald.
+            <p>
+                Om mijn kennis in Scrum te verbreden heb ik het PSM-1
+                certificaat behaald.
+            </p>
         </EducationItem>
     </SkillColumn>
 
     <SkillColumn title="Programmeren">
-        <SkillItem title="Python" experience="2 jaar" percent="to-90%" />
-        <SkillItem title="SQL" experience="2 jaar" percent="to-70%" />
-        <SkillItem title="R" experience="1 jaar" percent="to-60%" />
-        <SkillItem title="Javascript" experience="1 jaar" percent="to-60%" />
-        <SkillItem title="HTML, CSS" experience="1 jaar" percent="to-60%" />
-        <SkillItem title="FastAPI" experience="6 maanden" percent="to-30%" />
-        <SkillItem title="Java" experience="Basis" percent="to-10%" />
+        <SkillItem title="Python" experience="2 jaar" percentage="90" />
+        <SkillItem title="SQL" experience="2 jaar" percentage="70" />
+        <SkillItem title="R" experience="1 jaar" percentage="60" />
+        <SkillItem title="Javascript" experience="1 jaar" percentage="60" />
+        <SkillItem title="HTML, CSS" experience="1 jaar" percentage="60" />
+        <SkillItem title="FastAPI" experience="6 maanden" percentage="30" />
+        <SkillItem title="Java" experience="Basis" percentage="10" />
     </SkillColumn>
 
     <SkillColumn title="Tools">
-        <SkillItem title="Linux" experience="2 jaar" percent="to-70%" />
-        <SkillItem title="Docker" experience="2 jaar" percent="to-70%" />
+        <SkillItem title="Linux" experience="2 jaar" percentage="70" />
+        <SkillItem title="Docker" experience="2 jaar" percentage="70" />
         <SkillItem
             title="Azure DevOps"
             experience="6 maanden"
-            percent="to-30%"
+            percentage="30"
         />
-        <SkillItem title="Kubernetes" experience="Basis" percent="to-10%" />
+        <SkillItem title="Kubernetes" experience="Basis" percentage="10" />
     </SkillColumn>
 
     <SkillColumn title="Meta">
-        <SkillItem title="Agile" experience="2 jaar" />
-        <SkillItem title="Scrum" experience="2 jaar" />
-        <SkillItem title="Engels" experience="Vloeiend" percent="from-80%" />
+        <SkillItem title="Agile" experience="2 jaar" percentage="80" />
+        <SkillItem title="Scrum" experience="2 jaar" percentage="80" />
+        <SkillItem title="Engels" experience="Vloeiend" percentage="80" />
     </SkillColumn>
 </div>
+
+<style>
+    .skill-columns {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+</style>

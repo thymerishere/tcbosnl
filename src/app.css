@@ -6,6 +6,14 @@
     --max-width-medium: 1200px;
     --max-width-large: 1500px;
 
+    --accent-color-1: rgb(82 37 130);
+    --accent-color-2: rgb(227 0 127);
+    --accent-color-3: rgb(1 0 104);
+    --accent-color-4: rgb(49 128 78);
+    --accent-color-5: rgb(11 113 128);
+    --accent-color-6: rgb(130 150 94);
+    --accent-color-7: rgb(141 133 150);
+
     --nav-height: 60px;
     --hero-height: 75vh;
     scroll-padding-top: var(--nav-height);
@@ -41,7 +49,7 @@ a,
 h1,
 h2,
 h3 {
-    font-family: "Space Grotesk Variable";
+    font-family: "Space Grotesk Variable", sans-serif;
     font-weight: light;
 }
 

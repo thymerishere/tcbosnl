@@ -2,8 +2,6 @@
     import HeroImage from "#lib/assets/hero.jpg";
 </script>
 
-<span id="home"></span>
-
 <div class="hero" style="background-image: url({HeroImage})">
     <div class="hero-contents">
         <h2>

@@ -1,7 +1,13 @@
+<script>
+    import ProjectItem from "./ProjectItem.svelte";
+</script>
+
 <h1 id="projects">Projecten</h1>
 
-<div>
-    <p>Vermogensprofielen voor EV's en Laadpalen</p>
+<div class="project-items"></div>
+
+<ProjectItem>
+    <h3>Vermogensprofielen voor EV's en Laadpalen</h3>
     <p>
         ElaadNL
         <i></i>
@@ -16,10 +22,10 @@
         hierbij is dat de simulatie goed geverifiëerd en uitlegbaar is aan de
         verschillende doelgroepen waar het dashboard voor gemaakt wordt.
     </div>
-</div>
+</ProjectItem>
 
 <div>
-    <p>Gridshield</p>
+    <h3>Gridshield</h3>
     <p>
         ElaadNL
         <i></i>
@@ -35,7 +41,7 @@
 </div>
 
 <div>
-    <p>Voorspelling van het Koolzuurgehalte van Frisdrank</p>
+    <h3>Voorspelling van het Koolzuurgehalte van Frisdrank</h3>
     <p>
         Batenburg Bellt
         <i></i>
