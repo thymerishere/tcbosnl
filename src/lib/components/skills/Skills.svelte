@@ -33,27 +33,38 @@
                 certificaat behaald.
             </p>
         </EducationItem>
+        <EducationItem title="Microsoft AZ-900" time="2026">
+            <p>
+                Om mijn kennis in Microsoft Azure te verbreden heb ik AZ-900
+                gehaald certificaat behaald.
+            </p>
+        </EducationItem>
     </SkillColumn>
 
     <SkillColumn title="Programmeren">
-        <SkillItem title="Python" experience="2 jaar" percentage="90" />
-        <SkillItem title="SQL" experience="2 jaar" percentage="70" />
-        <SkillItem title="R" experience="1 jaar" percentage="60" />
-        <SkillItem title="Javascript" experience="1 jaar" percentage="60" />
-        <SkillItem title="HTML, CSS" experience="1 jaar" percentage="60" />
-        <SkillItem title="FastAPI" experience="6 maanden" percentage="30" />
+        <SkillItem title="Python" experience="5 jaar" percentage="90" />
+        <SkillItem title="SQL" experience="4 jaar" percentage="70" />
+        <SkillItem title="R" experience="2 jaar" percentage="60" />
+        <SkillItem title="Javascript" experience="4 jaar" percentage="60" />
+        <SkillItem title="HTML, CSS" experience="4 jaar" percentage="60" />
         <SkillItem title="Java" experience="Basis" percentage="10" />
     </SkillColumn>
 
+    <SkillColumn title="Python">
+        <SkillItem title="Jupyter" experience="5 jaar" percentage="70" />
+        <SkillItem title="FastAPI" experience="4 jaar" percentage="60" />
+        <SkillItem title="Pandas" experience="4 jaar" percentage="60" />
+        <SkillItem title="Polars" experience="4 jaar" percentage="60" />
+    </SkillColumn>
+
     <SkillColumn title="Tools">
-        <SkillItem title="Linux" experience="2 jaar" percentage="70" />
-        <SkillItem title="Docker" experience="2 jaar" percentage="70" />
-        <SkillItem
-            title="Azure DevOps"
-            experience="6 maanden"
-            percentage="30"
-        />
-        <SkillItem title="Kubernetes" experience="Basis" percentage="10" />
+        <SkillItem title="Linux" experience="4 jaar" percentage="70" />
+        <SkillItem title="Docker" experience="4 jaar" percentage="70" />
+        <SkillItem title="GitHub" experience="4 jaar" percentage="60" />
+        <SkillItem title="Azure" experience="2 jaar" percentage="40" />
+        <SkillItem title="Azure DevOps" experience="2 jaar" percentage="30" />
+        <SkillItem title="PostgreSQL" experience="2 jaar" percentage="30" />
+        <SkillItem title="Kubernetes" experience="1 jaar" percentage="20" />
     </SkillColumn>
 
     <SkillColumn title="Meta">
