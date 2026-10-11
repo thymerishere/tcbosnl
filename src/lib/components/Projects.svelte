@@ -1,7 +1,4 @@
-<div>
-    <span id="projects"></span>
-    <p id="projects">Projecten</p>
-</div>
+<h1 id="projects">Projecten</h1>
 
 <div>
     <p>Vermogensprofielen voor EV's en Laadpalen</p>

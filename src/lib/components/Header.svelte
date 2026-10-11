@@ -27,29 +27,27 @@
         class="nav-small-button"
     >
         {#if isNavOpen}
-            <XCircleIcon size={32} />
+            <XCircleIcon size={31} />
         {/if}
         {#if !isNavOpen}
             <CompassRoseIcon size={32} />
         {/if}
     </button>
-
-    {#if isNavOpen}
-        <nav class="nav-small">
-            <a class="nav-small-item" onclick={closeNav} href="#bio">Bio</a>
-            <a class="nav-small-item" onclick={closeNav} href="#projects"
-                >Projecten</a
-            >
-            <a class="nav-small-item" onclick={closeNav} href="#experience"
-                >Ervaring</a
-            >
-            <a class="nav-small-item" onclick={closeNav} href="#skills"
-                >Skills</a
-            >
-            <a class="nav-small-item" onclick={closeNav} href="#links">Links</a>
-        </nav>
-    {/if}
 </header>
+
+{#if isNavOpen}
+    <nav class="nav-small">
+        <a class="nav-small-item" onclick={closeNav} href="#bio">Bio</a>
+        <a class="nav-small-item" onclick={closeNav} href="#projects"
+            >Projecten</a
+        >
+        <a class="nav-small-item" onclick={closeNav} href="#experience"
+            >Ervaring</a
+        >
+        <a class="nav-small-item" onclick={closeNav} href="#skills">Skills</a>
+        <a class="nav-small-item" onclick={closeNav} href="#links">Links</a>
+    </nav>
+{/if}
 
 <style>
     header {
@@ -57,11 +55,11 @@
         position: sticky;
         display: flex;
         height: var(--nav-height);
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(4px);
     }
 
     .title-name {
-        margin: auto 10px auto;
+        margin: auto 20px auto 10px;
         color: var(--text-color-primary);
         text-decoration: none;
         font-size: 22px;
@@ -80,7 +78,7 @@
     .nav-big {
         display: none;
         font-size: 22px;
-        margin: auto 0 auto auto;
+        margin: auto 10px auto auto;
         gap: 20px;
     }
 
@@ -91,13 +89,18 @@
         background: none;
     }
 
+    .nav-small-button:hover {
+        filter: drop-shadow(0px 0px 20px #aaa);
+        cursor: pointer;
+    }
+
     .nav-small {
         top: var(--nav-height);
         right: 0;
         display: flex;
         flex-direction: column;
-        position: absolute;
-        background-color: #333;
+        position: fixed;
+        backdrop-filter: blur(4px);
     }
 
     .nav-small-item {

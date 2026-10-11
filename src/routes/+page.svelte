@@ -12,10 +12,18 @@
 <main>
     <Header />
     <Hero />
-    <Bio />
-    <Projects />
-    <Experience />
-    <Skills />
-    <Links />
+    <div class="page-contents">
+        <Bio />
+        <Projects />
+        <Experience />
+        <Skills />
+        <Links />
+    </div>
     <Footer />
 </main>
+
+<style>
+    .page-contents {
+        padding: 0 5vw;
+    }
+</style>

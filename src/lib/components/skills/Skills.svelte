@@ -4,10 +4,7 @@
     import SkillItem from "./SkillItem.svelte";
 </script>
 
-<div>
-    <span id="skills"></span>
-    <p>Skills</p>
-</div>
+<h1 id="skills">Skills</h1>
 
 <div>
     <SkillColumn title="Opleidingen">

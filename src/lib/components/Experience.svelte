@@ -1,7 +1,4 @@
-<div>
-    <span id="experience"></span>
-    <p>Ervaring</p>
-</div>
+<h1 id="experience">Ervaring</h1>
 
 <div>
     <div>

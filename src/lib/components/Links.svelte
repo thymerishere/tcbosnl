@@ -1,7 +1,4 @@
-<div>
-    <span id="links" class="relative -top-[80px]"></span>
-    <p>Links</p>
-</div>
+<h1 id="links">Links</h1>
 
 <div>
     <a

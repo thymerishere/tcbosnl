@@ -2,12 +2,9 @@
     import BioItem from "./BioItem.svelte";
 </script>
 
-<div>
-    <span id="bio"></span>
-    <p>Wie ben ik?</p>
-</div>
+<h1 id="bio">Wie ben ik?</h1>
 
-<div class="bg-slate-900">
+<div>
     <div>
         <BioItem>
             <div>
@@ -24,9 +21,8 @@
         </BioItem>
         <BioItem>
             <p>Software Engineer</p>
-            Ik ben een<span class="font-bold">Software Engineer</span> met een passie
-            voor kwaliteit en structuur. Ik werk graag in Python aan kleine en grote
-            projecten.
+            Ik ben een<span>Software Engineer</span> met een passie voor kwaliteit
+            en structuur. Ik werk graag in Python aan kleine en grote projecten.
         </BioItem>
         <BioItem>
             <p>Data Scientist</p>
@@ -36,9 +32,7 @@
         </BioItem>
         <BioItem>
             <p>Ervaren in de Energiemarkt</p>
-            Ik heb<span class="font-bold"
-                >twee jaar ervaring in de energiemarkt</span
-            >
+            Ik heb<span>twee jaar ervaring in de energiemarkt</span>
             en heb samen gewerkt met verschillende netbeheerders.
         </BioItem>
         <BioItem>
