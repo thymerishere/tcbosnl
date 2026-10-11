@@ -1,16 +1,15 @@
 <script>
-    import Header from "../components/Header.svelte";
-    import Hero from "../components/Hero.svelte";
-    import Bio from "../components/Bio.svelte";
-    import Projects from "../components/Projects.svelte";
-    import Experience from "../components/Experience.svelte";
-    import Skills from "../components/skills/Skills.svelte";
-    import Footer from "../components/Footer.svelte";
-    import Links from "../components/Links.svelte";
+    import Bio from "#lib/components/Bio.svelte";
+    import Experience from "#lib/components/Experience.svelte";
+    import Footer from "#lib/components/Footer.svelte";
+    import Header from "#lib/components/Header.svelte";
+    import Hero from "#lib/components/Hero.svelte";
+    import Links from "#lib/components/Links.svelte";
+    import Projects from "#lib/components/Projects.svelte";
+    import Skills from "#lib/components/skills/Skills.svelte";
 </script>
 
-
-<main class="flex flex-col bg-black">
+<main>
     <Header />
     <Hero />
     <Bio />
