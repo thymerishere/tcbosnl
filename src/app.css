@@ -1,16 +1,45 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root {
+    --background-color-primary: #151122;
+    --text-color-primary: #eee;
 
-/* html {
-    scroll-behavior: smooth;
-} */
+    --max-width-small: 700px;
+    --max-width-medium: 1200px;
+    --max-width-large: 1500px;
+
+    --nav-height: 60px;
+}
+
+@media (max-width: var(--max-width-small)) {
+    :root {
+        --nav-height: 32px
+    }
+}
+
+@media (max-width: var(--max-width-medium)) {
+    :root {
+        --nav-height: 48px
+    }
+}
 
 html {
     font-family: "Manrope Variable", sans-serif;
+    color: var(--text-color-primary);
+    background-color: var(--background-color-primary);
 }
 
-p, h1, h2, h3 {
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-family: "Space Grotesk Variable";
+}
+
+p,
+h1,
+h2,
+h3 {
     font-family: "Space Grotesk Variable";
     font-weight: light;
 }

@@ -6,7 +6,7 @@
 
 <div>
     <div>
-        <span class="font-bold">{title}</span>
+        <span>{title}</span>
     </div>
     <div>
         <div>
