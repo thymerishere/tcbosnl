@@ -2,6 +2,7 @@
     import { LinkedinLogoIcon } from "phosphor-svelte";
     import { InstagramLogoIcon } from "phosphor-svelte";
     import { LampIcon } from "phosphor-svelte";
+    import { GuitarIcon } from "phosphor-svelte";
 </script>
 
 <h1 id="links">Links</h1>
@@ -14,10 +15,6 @@
         <LinkedinLogoIcon size={32} />
         <p>LinkedIn <span>(thomas-christiaan-bos)</span></p>
     </a>
-    <a target="_blank" href="https://www.instagram.com/anotherforestband/">
-        <InstagramLogoIcon size={32} />
-        <p>Instagram <span>(@anotherforestband)</span></p>
-    </a>
     <a
         target="_blank"
         href="https://elaad.nl/blog-een-kijkje-achter-de-schermen-bij-de-ontwikkeling-van-de-laadprofielengenerator/"
@@ -26,6 +23,14 @@
         <p>
             Mijn blog over de LS-profielengenerator <span>(ElaadNL)</span>
         </p>
+    </a>
+    <a target="_blank" href="https://www.instagram.com/anotherforestband/">
+        <InstagramLogoIcon size={32} />
+        <p>Instagram <span>(@anotherforestband)</span></p>
+    </a>
+    <a target="_blank" href="https://anotherforestband.com">
+        <GuitarIcon size={32} />
+        <p>Bandwebsite <span>(@anotherforestband)</span></p>
     </a>
 </div>
 

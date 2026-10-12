@@ -1,14 +1,24 @@
 <script>
-    export let title = "title";
-    export let time = "time";
+    let {
+        children,
+        title,
+        time,
+        img,
+        padding = "0",
+        backgroundColor = null,
+    } = $props();
 </script>
 
 <div class="experience-item">
     <div class="title-and-time">
-        <p class="experience-title">{title}</p>
+        <img
+            src={img}
+            alt={title}
+            style="padding: {padding}; background-color: {backgroundColor};"
+        />
         <p class="experience-time">{time}</p>
     </div>
-    <slot />
+    {@render children?.()}
 </div>
 
 <style>
@@ -25,6 +35,9 @@
 
     .title-and-time {
         margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
     .title-and-time p {
@@ -32,9 +45,12 @@
         margin: 0;
         font-family: "Space Grotesk Variable", sans-serif;
         font-weight: light;
+        font-style: italic;
     }
 
-    .experience-title {
-        font-size: 32px;
+    .title-and-time img {
+        max-width: 200px;
+        max-height: 200px;
+        min-width: 150px;
     }
 </style>

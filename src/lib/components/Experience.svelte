@@ -1,11 +1,21 @@
 <script>
+    import AllianderLogo from "#lib/assets/alliander.png";
+    import InfiniotLogo from "#lib/assets/infiniot.svg";
+    import BBTGLogo from "#lib/assets/bbtg.jpeg";
+    import ElaadLogo from "#lib/assets/elaad.png";
+    import FinapsLogo from "#lib/assets/finaps.svg";
+    import BatenburgBelltLogo from "#lib/assets/batenburg-bellt.png";
     import ExperienceItem from "./ExperienceItem.svelte";
 </script>
 
 <h1 id="experience">Ervaring</h1>
 
 <div class="experience-items">
-    <ExperienceItem title="Alliander" time="sinds sept 2026">
+    <ExperienceItem
+        title="Alliander"
+        time="sinds sept 2026"
+        img={AllianderLogo}
+    >
         <p>
             Alliander is de grootste distributienetbeheerder van Nederland.
             Binnen Alliander werk ik aan vernieuwing van het Grid Control
@@ -15,15 +25,20 @@
         </p>
     </ExperienceItem>
 
-    <ExperienceItem title="BBTG Energy Solutions" time="sinds nov 2025">
+    <ExperienceItem
+        title="BBTG Energy Solutions"
+        time="sinds nov 2025"
+        img={BBTGLogo}
+    >
         <p>
-            Infiniot is sinds november 2025 onderdeel van BBTG en binnen BBTG
-            gaan we als BBTG Energy Solutions verder werken aan de digitaliseren
-            van de energiesector.
+            BBTG is in 2025 ontstaan als samenkomst van verschillende partijen
+            actief in de IT sector, waaronder Infiniot. Binnen BBTG werk ik
+            onder BBTG Energy Solutions verder aan het digitaliseren van de
+            energiesector.
         </p>
     </ExperienceItem>
 
-    <ExperienceItem title="ElaadNL" time="jan 2022 - sept 2026">
+    <ExperienceItem title="ElaadNL" time="jan 2022 - sept 2026" img={ElaadLogo}>
         <p>
             ElaadNL is een kennis- en innovatiecentrum op het gebied van EV. Ik
             werk bij ElaadNL als Software Engineer aan API's en dashboards die
@@ -33,7 +48,7 @@
         </p>
     </ExperienceItem>
 
-    <ExperienceItem title="Infiniot" time="sinds jan 2022">
+    <ExperienceItem title="Infiniot" time="sinds jan 2022" img={InfiniotLogo}>
         <p>
             Infiniot is een software en data consultancy, vooral actief in de
             energiemarkt. Ik werk bij Infiniot als Software Engineering
@@ -42,7 +57,13 @@
         </p>
     </ExperienceItem>
 
-    <ExperienceItem title="Batenburg Bellt" time="sept 2021 - juli 2022">
+    <ExperienceItem
+        title="Batenburg Bellt"
+        time="sept 2021 - juli 2022"
+        img={BatenburgBelltLogo}
+        padding="20px 10px"
+        backgroundColor="white"
+    >
         <p>
             Batenburg Bellt is een consultancy gespecialiseerd in
             procesautomatisering. Bij Bellt heb ik mijn masterproject gedaan als
@@ -50,7 +71,13 @@
         </p>
     </ExperienceItem>
 
-    <ExperienceItem title="Finaps" time="mei - juni 2019">
+    <ExperienceItem
+        title="Finaps"
+        time="mei - juni 2019"
+        img={FinapsLogo}
+        padding="20px"
+        backgroundColor="white"
+    >
         <p>
             Finaps is een software consultancy die bedrijven helpt in
             digitalisering en innovatie. Bij Finaps heb ik mijn bachelorproject
@@ -65,7 +92,7 @@
     .experience-items {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 40px;
     }
 
     .experience-items p {
