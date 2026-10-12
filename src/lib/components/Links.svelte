@@ -1,28 +1,48 @@
+<script>
+    import { LinkedinLogoIcon } from "phosphor-svelte";
+    import { InstagramLogoIcon } from "phosphor-svelte";
+    import { LampIcon } from "phosphor-svelte";
+</script>
+
 <h1 id="links">Links</h1>
 
-<div>
+<div class="links-container">
     <a
         target="_blank"
         href="https://www.linkedin.com/in/thomas-christiaan-bos/"
     >
-        <i></i>
+        <LinkedinLogoIcon size={32} />
         <p>LinkedIn <span>(thomas-christiaan-bos)</span></p>
     </a>
-    <a
-        target="_blank"
-        href="https://www.instagram.com/anotherforestband/"
-        class="text-center text-white text-xl font-light hover:underline"
-    >
-        <i></i>
+    <a target="_blank" href="https://www.instagram.com/anotherforestband/">
+        <InstagramLogoIcon size={32} />
         <p>Instagram <span>(@anotherforestband)</span></p>
     </a>
     <a
         target="_blank"
         href="https://elaad.nl/blog-een-kijkje-achter-de-schermen-bij-de-ontwikkeling-van-de-laadprofielengenerator/"
     >
-        <i></i>
+        <LampIcon size={32} />
         <p>
             Mijn blog over de LS-profielengenerator <span>(ElaadNL)</span>
         </p>
     </a>
 </div>
+
+<style>
+    .links-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .links-container a {
+        width: 300px;
+        text-align: center;
+        color: var(--text-color-primary);
+    }
+
+    .links-container a:hover {
+        text-shadow: none;
+        filter: drop-shadow(0px 0px 20px #aaa);
+    }
+</style>

@@ -28,14 +28,13 @@
 
 <style>
     .bio-item-columned {
-        display: grid;
-        grid-template-columns: 3fr 2fr;
+        display: flex;
+        justify-content: space-between;
     }
 
     .bio-item {
         border-radius: 8px;
-        min-height: 200px;
-        max-width: 500px;
+        max-width: 490px;
     }
 
     .bio-item-contents {

@@ -8,9 +8,9 @@
 <div class="bio-items">
     <BioItem img={ProfileImage} accent={1}>
         <h4>Over mijzelf...</h4>
-        Ik ben Thomas en ik ben 26 jaar. Ik heb mijn BSc en MSc Computer Science
-        aan de TU Delft behaald en ik werk nu vier jaar als Software Engineer in
-        de energiemarkt.
+        Ik ben Thomas en ik ben 28 jaar. Ik heb mijn BSc en MSc Computer Science
+        aan de TU Delft behaald en ik werk inmiddels vier jaar als Software Engineer
+        in de energiesector.
     </BioItem>
     <BioItem accent={2}>
         <h4>Software Engineer</h4>
@@ -23,22 +23,22 @@
         <h4>Data Scientist</h4>
         Ik ben een
         <span>Data Scientist</span>
-        die data gebruikt om problemen te onderzoeken en op te lossen. Hiervoor maak
-        ik data visualisaties, dashboards, en rapporten.
+        die data gebruikt om problemen te onderzoeken en op te lossen. Hiervoor bouw
+        ik modellen, data visualisaties, dashboards, en rapporten.
     </BioItem>
     <BioItem accent={4}>
         <h4>Ervaren in de Energiemarkt</h4>
         Ik heb
-        <span>twee jaar ervaring in de energiemarkt</span>
-        en heb samen gewerkt met verschillende netbeheerders.
+        <span>vier jaar ervaring in de energiesector</span>
+        en heb gewerkt met verschillende netbeheerders om samen energietransitie
+        te versnellen.
     </BioItem>
     <BioItem accent={5}>
         <h4>Teamlid</h4>
-        Ik werk graag samen met collega's om samen aan iets groters te bouwen. Dit
-        doe ik via
+        Ik werk graag samen met collega's om iets groters te bouwen. Dit doe ik via
         <span>Agile</span> of
-        <span>Scrum</span>
-        wat het team stuurt naar het bouwen van klantgerichte producten.
+        <span>Scrum</span>, wat het team stuurt naar het bouwen van
+        klantgerichte en waardevolle producten.
     </BioItem>
     <!-- <BioItem>
             <p class="text-xl font-light text-center">Analyst</h4>
@@ -66,5 +66,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 20px;
+        justify-content: center;
     }
 </style>

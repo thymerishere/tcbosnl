@@ -25,5 +25,7 @@
 <style>
     .page-contents {
         padding: 0 5vw;
+        margin: auto;
+        max-width: 1000px;
     }
 </style>

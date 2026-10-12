@@ -5,9 +5,11 @@
         time = null,
         color = "var(--accent-color-1)",
     } = $props();
+
+    const gradient = `linear-gradient(90deg, ${color} 0%, rgba(255, 255, 255, 0.1) 100%)`;
 </script>
 
-<div class="education-item" style="background-color: {color};">
+<div class="education-item" style="background: {gradient};">
     <div class="title-and-time">
         <h4 class="education-title">{title}</h4>
         {#if time}

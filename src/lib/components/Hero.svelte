@@ -4,9 +4,9 @@
 
 <div class="hero" style="background-image: url({HeroImage})">
     <div class="hero-contents">
-        <h2>
+        <h1>
             <span>Thomas<br />Christiaan<br />Bos</span>
-        </h2>
+        </h1>
         <p>
             <span>Software Engineer</span>,<br />
             <span>Data Scientist</span>,<br />
@@ -23,7 +23,15 @@
         display: flex;
     }
 
+    h1 {
+        font-size: calc(min(7vw, 100px));
+    }
+
+    p {
+        font-size: calc(min(3vw, 50px));
+    }
+
     .hero-contents {
-        margin: auto auto auto 0;
+        margin: auto auto auto 5vw;
     }
 </style>
