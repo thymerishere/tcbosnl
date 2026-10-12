@@ -28,8 +28,8 @@
 
 <style>
     .bio-item-columned {
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 3fr 2fr;
     }
 
     .bio-item {

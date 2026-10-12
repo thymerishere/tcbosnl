@@ -83,9 +83,9 @@
     </SkillColumn>
 
     <SkillColumn title="Meta">
-        <SkillItem title="Agile" experience="2 jaar" percentage="80" />
-        <SkillItem title="Scrum" experience="2 jaar" percentage="80" />
-        <SkillItem title="Engels" experience="Vloeiend" percentage="80" />
+        <SkillItem title="Engels" experience="Vloeiend" percentage="100" />
+        <SkillItem title="Agile" experience="4 jaar" percentage="80" />
+        <SkillItem title="Scrum" experience="4 jaar" percentage="80" />
     </SkillColumn>
 </div>
 
