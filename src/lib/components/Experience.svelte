@@ -1,7 +1,7 @@
 <script>
     import AllianderLogo from "#lib/assets/alliander.png";
     import InfiniotLogo from "#lib/assets/infiniot.svg";
-    import BBTGLogo from "#lib/assets/bbtg.jpeg";
+    import BBTGLogo from "#lib/assets/bbtg.png";
     import ElaadLogo from "#lib/assets/elaad.png";
     import FinapsLogo from "#lib/assets/finaps.svg";
     import BatenburgBelltLogo from "#lib/assets/batenburg-bellt.png";
@@ -29,6 +29,8 @@
         title="BBTG Energy Solutions"
         time="sinds nov 2025"
         img={BBTGLogo}
+        padding="20px"
+        backgroundColor="white"
     >
         <p>
             BBTG is in 2025 ontstaan als samenkomst van verschillende partijen
