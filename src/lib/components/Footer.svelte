@@ -1,7 +1,13 @@
+<script>
+    const year = new Date().getFullYear();
+</script>
+
 <div id="footer">
     <p>...</p>
     <p>Gemaakt door mij met Svelte, CSS, en Passie.</p>
-    <p>© Thomas Christiaan Bos 2026</p>
+    <p>
+        © {year} &nbsp; Thomas Christiaan Bos &nbsp; | &nbsp; All Rights Reserved
+    </p>
 </div>
 
 <style>

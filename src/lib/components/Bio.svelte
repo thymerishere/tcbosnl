@@ -1,6 +1,11 @@
 <script>
     import ProfileImage from "#lib/assets/profile_square.jpeg";
     import BioItem from "./BioItem.svelte";
+
+    let age = Math.floor(
+        (Date.now() - Date.parse("1997-12-16T13:00:00+01:00")) /
+            (3600 * 24 * 365.25 * 1000),
+    );
 </script>
 
 <h1 id="bio">Wie ben ik?</h1>
@@ -8,7 +13,7 @@
 <div class="bio-items">
     <BioItem img={ProfileImage} accent={1}>
         <h4>Over mijzelf...</h4>
-        Ik ben Thomas en ik ben 28 jaar. Ik heb mijn BSc en MSc Computer Science
+        Ik ben Thomas en ik ben {age} jaar. Ik heb mijn BSc en MSc Computer Science
         aan de TU Delft behaald en ik werk inmiddels vier jaar als Software Engineer
         in de energiesector.
     </BioItem>

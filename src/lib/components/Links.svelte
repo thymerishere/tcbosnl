@@ -37,13 +37,16 @@
 <style>
     .links-container {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
+        place-content: center;
     }
 
     .links-container a {
         width: 300px;
         text-align: center;
         color: var(--text-color-primary);
+        text-decoration: none;
     }
 
     .links-container a:hover {

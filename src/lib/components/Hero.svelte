@@ -17,14 +17,15 @@
 
 <style>
     .hero {
-        height: var(--hero-height);
+        /* height: var(--hero-height); */
+        height: 400px;
         background-position: center;
         background-size: cover;
         display: flex;
     }
 
     h1 {
-        font-size: calc(min(7vw, 100px));
+        font-size: calc(min(7vw, 80px));
     }
 
     p {

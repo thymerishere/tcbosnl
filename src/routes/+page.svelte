@@ -23,6 +23,10 @@
 </main>
 
 <style>
+    main {
+        margin-top: var(--nav-height);
+    }
+
     .page-contents {
         padding: 0 5vw;
         margin: auto;

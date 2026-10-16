@@ -10,52 +10,62 @@
 </script>
 
 <header>
-    <a class="title-name" href="/" aria-label="Home">Thomas Christiaan Bos</a>
+    <div class="top-bar">
+        <a class="title-name" href="/" aria-label="Home"
+            >Thomas Christiaan Bos</a
+        >
 
-    <nav class="nav-big">
-        <a href="#bio">Bio</a>
-        <a href="#projects">Projecten</a>
-        <a href="#experience">Ervaring</a>
-        <a href="#skills">Skills</a>
-        <a href="#links">Links</a>
-    </nav>
+        <nav class="nav-big">
+            <a href="#bio">Bio</a>
+            <a href="#projects">Projecten</a>
+            <a href="#experience">Ervaring</a>
+            <a href="#skills">Skills</a>
+            <a href="#links">Links</a>
+        </nav>
 
-    <button
-        onclick={() => {
-            isNavOpen = !isNavOpen;
-        }}
-        class="nav-small-button"
-    >
-        {#if isNavOpen}
-            <XCircleIcon size={31} />
-        {/if}
-        {#if !isNavOpen}
-            <CompassRoseIcon size={32} />
-        {/if}
-    </button>
+        <button
+            onclick={() => {
+                isNavOpen = !isNavOpen;
+            }}
+            class="nav-small-button"
+        >
+            {#if isNavOpen}
+                <XCircleIcon size={31} />
+            {/if}
+            {#if !isNavOpen}
+                <CompassRoseIcon size={32} />
+            {/if}
+        </button>
+    </div>
+
+    {#if isNavOpen}
+        <nav class="nav-small">
+            <a class="nav-small-item" onclick={closeNav} href="#bio">Bio</a>
+            <a class="nav-small-item" onclick={closeNav} href="#projects"
+                >Projecten</a
+            >
+            <a class="nav-small-item" onclick={closeNav} href="#experience"
+                >Ervaring</a
+            >
+            <a class="nav-small-item" onclick={closeNav} href="#skills"
+                >Skills</a
+            >
+            <a class="nav-small-item" onclick={closeNav} href="#links">Links</a>
+        </nav>
+    {/if}
 </header>
-
-{#if isNavOpen}
-    <nav class="nav-small">
-        <a class="nav-small-item" onclick={closeNav} href="#bio">Bio</a>
-        <a class="nav-small-item" onclick={closeNav} href="#projects"
-            >Projecten</a
-        >
-        <a class="nav-small-item" onclick={closeNav} href="#experience"
-            >Ervaring</a
-        >
-        <a class="nav-small-item" onclick={closeNav} href="#skills">Skills</a>
-        <a class="nav-small-item" onclick={closeNav} href="#links">Links</a>
-    </nav>
-{/if}
 
 <style>
     header {
         top: 0;
-        position: sticky;
+        width: 100%;
+        position: fixed;
+        backdrop-filter: blur(4px);
+    }
+
+    .top-bar {
         display: flex;
         height: var(--nav-height);
-        backdrop-filter: blur(4px);
     }
 
     .title-name {
@@ -95,12 +105,9 @@
     }
 
     .nav-small {
-        top: var(--nav-height);
         right: 0;
         display: flex;
         flex-direction: column;
-        position: fixed;
-        backdrop-filter: blur(4px);
     }
 
     .nav-small-item {
