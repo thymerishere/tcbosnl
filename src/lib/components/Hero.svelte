@@ -17,8 +17,7 @@
 
 <style>
     .hero {
-        /* height: var(--hero-height); */
-        height: 400px;
+        height: 100%;
         background-position: center;
         background-size: cover;
         display: flex;
